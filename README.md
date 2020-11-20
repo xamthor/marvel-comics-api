@@ -2,7 +2,7 @@
 
 Marvel API https://developer.marvel.com/
 
-
+Demo https://marvel-comics-api-52zq3.ondigitalocean.app/ 
 
 # setup
 
@@ -14,3 +14,4 @@ set authorized domain in marvel api
 
 npm run build
 
+npm run serve
