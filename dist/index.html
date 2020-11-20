@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Marvel Comics Tracker</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="bg-white h-full rounded-lg  p-5 md:p-20 mx-2">
+      <div class="text-center">
+        <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+          Search <span class="text-red-600"> Marvel</span> Characters
+        </h2>
+        <p class="text-md md:text-xl mt-10"> Find your favorite Marvel Character </p>
+      </div>
+      <div class="text-center mt-10">
+        <div class="pt-2 relative mx-auto text-gray-600">
+          <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+            type="search" id="search" name="search" placeholder="search">
+        </div>
+    
+        <div id="seacrchresults" class="h-auto my-8 py-8 grid grid-cols-1 gap-8"></div>
+  
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>
